@@ -1,4 +1,4 @@
-1. Copiar la carpeta "listabierta" al servidor donde se vaya a ejecutar y renombrarla al gusto.
+1. Copiar la carpeta "src" al servidor donde se vaya a ejecutar y renombrarla al gusto.
 2. Si una vez instalado se va a usar mediante un dominio propio, crear la entrada "VirtualHost" apropiada en la configuración de Apache.
 3. Crear una base de datos de tipo MySQL con el nombre que se desee y ejecutar en su contexto el archivo "listabierta.sql". Si se dispone de la herramienta "phpMyAdmin", se crea la base de datos igualmente y se importa el archivo "listabierta.sql".
 4. Crear un usuario de MySQL con plenos derechos sobre la base de datos recién creada.
