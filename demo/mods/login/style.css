@@ -1,0 +1,127 @@
+section#login{
+	background-color: #333;
+	color: #FFF;
+	padding: 50px;
+}
+section#login a{
+	color: #FFF;
+}
+section#login span#top{
+	display: block;
+	width: 800px;
+	margin: 0 auto 20px auto;
+}
+section#login form#login{
+	display: block;
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #222;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 6px #1C1C1C inset;
+}
+section#login form#login h1{
+	font-family: hfont;
+	letter-spacing: 0em;
+	text-align: center;
+}
+section#login form#login p#desc{
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	color: #BBB;
+}
+section#login form#login hr{
+	margin: 20px 0;
+	border: none;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #444;
+}
+section#login form#login input{
+	width: 30em;
+	margin: -10px 0 0 10px;
+	padding: 5px;
+	border: 1px solid #BBB;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px #AAA inset;
+}
+section#login form#login table#pad{
+	float: left;
+	margin: 0;
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #111;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+section#login form#login table#pad a.button{
+	display: block;
+	float: left;
+	width: 1em;
+	height: 0.8em;
+	padding: 0.4em 0 0.1em 0;
+	margin: 2px;
+	font-family: hfont;
+	font-size: 2em;
+	background-color: #222;
+	border: 1px solid #666;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+	outline: 0;
+}
+section#login form#login table#pad a.button:hover{
+	background-color: #333;
+}
+section#login form#login table#pad a.button:active{
+	background-color: #111;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+section#login form#login section#pin{
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	width: 250px;
+	padding: 20px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #444;
+}
+section#login form#login section#pin input#pin{
+	width: 4em;
+	padding: 5px;
+	border: 1px solid #BBB;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px #AAA inset;
+	font-size: 2em;
+}
+section#login form#login figure#sec{
+	display: none;
+	float: left;
+	margin-bottom: 20px;
+	width: 130px;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #444;
+}
+section#login form#login figure#sec img{
+	width: 130px;
+}
+section#login form#login figure#sec figcaption{
+	margin-top: 5px;
+	font-size: 0.7em;
+}
+section#login form#login section#pin a#clear{
+	outline: 0;
+}
+section#login form#login div#blocker{
+	width: 100%;
+	background-color: rgba(100, 100, 100, 0.5);
+}

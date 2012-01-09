@@ -1,0 +1,55 @@
+section#perfil section#usercard{
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #EEE;
+	color: #333;
+	box-shadow: 0 0 10px #000;
+}
+section#perfil section#usercard > header{
+	padding: 25px 20px 10px 20px;
+	background-color: #71C837;
+	color: #FFF;
+}
+section#perfil section#usercard section#images{
+	float: left;
+	width: 150px;
+	margin: 20px 10px 20px 20px;
+}
+section#perfil section#usercard section#images figure#sec{}
+section#perfil section#usercard section#images figure#sec img{
+	padding: 5px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+section#perfil section#usercard section#images figure#sec figcaption{
+	font-size: 0.7em;
+}
+section#perfil section#usercard section#data{
+	float: left;
+	width: 790px;
+	margin: 20px 20px 20px 10px;
+}
+section#perfil section#usercard section#data article{
+	margin: 10px 0 20px 0;
+	color: #999;
+}
+section#perfil section#usercard section#data article > header{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #71C837;
+	color: #71C837;
+}
+section#perfil section#usercard section#data article small{
+	margin-right: 5px;
+}
+section#perfil section#usercard section#data article a{
+	color: #555;
+	text-decoration: none;
+}
+section#perfil section#usercard section#data article a:hover{
+	text-decoration: underline;
+}
+section#perfil section#usercard > footer{
+	clear:both;
+	height: 20px;
+	background-color: #CCC;
+}

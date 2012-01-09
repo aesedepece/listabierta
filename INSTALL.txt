@@ -1,0 +1,15 @@
+1. Copiar la carpeta "listabierta" al servidor donde se vaya a ejecutar y renombrarla al gusto.
+2. Si una vez instalado se va a usar mediante un dominio propio, crear la entrada "VirtualHost" apropiada en la configuración de Apache.
+3. Crear una base de datos de tipo MySQL con el nombre que se desee y ejecutar en su contexto el archivo "listabierta.sql". Si se dispone de la herramienta "phpMyAdmin", se crea la base de datos igualmente y se importa el archivo "listabierta.sql".
+4. Crear un usuario de MySQL con plenos derechos sobre la base de datos recién creada.
+5. Editar el archivo "listabierta/settings.php":
+	6.1. En la llamada a la función "mysql_connect()", cambiar los tres parámetros por el dominio que hospeda la base de datos (por defecto "localhost"), el nombre de usuario de MySQL que se ha creado y la contraseña del usuario respectivamente.
+	6.2. En la llamada a la función "mysql_select_db()", cambiar el primer parámetro por el nombre que se le haya asignado a la base de datos.
+	6.3. El valor de la variable "$sitename" será el nombre que aparecerá en el título del sitio web.
+	6.4. El valor de la variable "$domain" debe corresponder con el dominio principal para acceder al sitio web, sin "http://" ni rutas añadidas. Ej.: Si la aplicación va a estar en "http://listabierta.com/demo", el valor debe ser "listabierta.com".
+	6.5. El valor de la variable "$r" debe corresponder con la ruta a la carpeta que ocupa la instalación de listabierta frente al dominio acabando en barra. Ej.: Si la aplicación va a estar en "http://listabierta.com" el valor debe ser "/" y de estar en "http://listabierta.com/demo" el valor debe ser "/demo/".
+	6.6. El valor de la variable "$description" se usará como metadato en la cabecera del HTML.
+	6.7. El valor de la variable "$keywords" se usará como metadato en la cabecera del HTML.
+	6.8. El valor de la variable "$titles['main']" se usará como breve descripción de la página y es el que aparece en Google.
+7. Sustituir "listabierta/aux/img/logo.png" por el logotipo que se quiera, que debe tener 70px de alto y un ancho que no exceda los 300px.
+8. Sustituir "listabierta/aux/img/favicon.png" por el favicon que se quiera, que se recomienda tenga un tamaño de 32px.

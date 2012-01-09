@@ -1,0 +1,139 @@
+section#signup{
+	background-color: #333;
+	color: #FFF;
+	padding: 50px;
+}
+section#signup a{
+	color: #FFF;
+}
+section#signup span#top{
+	display: block;
+	width: 800px;
+	margin: 0 auto 20px auto;
+}
+section#signup form#signup{
+	display: block;
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #222;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 6px #1C1C1C inset;
+}
+section#signup form#signup h1{
+	font-family: hfont;
+	letter-spacing: 0em;
+	text-align: center;
+}
+section#signup form#signup p#desc{
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	color: #BBB;
+}
+section#signup form#signup hr{
+	margin: 20px 0;
+	border: none;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #444;
+}
+section#signup form#signup table{
+	margin: 20px auto;
+}
+section#signup form#signup table#fields td{
+	padding: 5px 0;
+}
+section#signup form#signup table#fields input{
+	width: 30em;
+	margin: -10px 0 0 10px;
+	padding: 5px;
+	border: 1px solid #BBB;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px #AAA inset;
+}
+section#signup form#signup table#fields input#zip{
+	width: 5em;
+}
+section#signup form#signup table#checks input{
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+section#signup form#signup section#buttons{
+	width: 500px;
+	margin: 0 auto;
+}
+section#signup form#signup table#pad{
+	float: left;
+	margin: 0;
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #111;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+section#signup form#signup table#pad a.button{
+	display: block;
+	float: left;
+	width: 1em;
+	height: 0.8em;
+	padding: 0.4em 0 0.1em 0;
+	margin: 2px;
+	font-family: hfont;
+	font-size: 2em;
+	background-color: #222;
+	border: 1px solid #666;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+	outline: 0;
+}
+section#signup form#signup table#pad a.button:hover{
+	background-color: #333;
+}
+section#signup form#signup table#pad a.button:active{
+	background-color: #111;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+section#signup form#signup section#pin{
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	width: 250px;
+	padding: 20px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #444;
+}
+section#signup form#signup section#pin input#pin{
+	width: 4em;
+	padding: 5px;
+	border: 1px solid #BBB;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px #AAA inset;
+	font-size: 2em;
+}
+section#signup form#signup figure#sec{
+	float: left;
+	margin-bottom: 20px;
+	width: 130px;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #444;
+}
+section#signup form#signup figure#sec img{
+	width: 130px;
+}
+section#signup form#signup figure#sec figcaption{
+	margin-top: 5px;
+	font-size: 0.7em;
+}
+section#signup form#signup section#pin a#clear{
+	outline: 0;
+}

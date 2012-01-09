@@ -1,0 +1,93 @@
+section#main{
+}
+section#main div#banner{
+	height: 300px;
+	min-width: 1000px;
+	background-color: #000;
+	font-family: hfont, Helvetica, Arial, Sans;
+	font-weight: bold;
+}
+section#main div#banner img{
+	display: block;
+	margin: 0 auto;
+}
+section#main div#banner div#text{
+	display: block;
+	margin: 0 auto;
+	margin-top: -300px;
+	padding-top: 50px;
+	width: 800px;
+	text-align: center;
+	color: #FFF;
+}
+section#main div#banner h1{
+	font-size: 3em;
+	margin: 15px 0;
+	letter-spacing: 0em;
+}
+section#main div#banner h3{
+	font-size: 1.5em;
+	margin: 10px 0;
+}
+section#main form#join{
+	padding: 20px 0 12px 0;
+	background-color: #FFF;
+}
+section#main form#join span{
+	display: block;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: -7px;
+	font-family: efont;
+	font-size: 1.2em;
+	color: #666;
+}
+section#main form#join span input#email{
+	width: 400px;
+	margin: -10px 0 0 10px;
+	padding: 5px;
+	border: 1px solid #BBB;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px #AAA inset;
+}
+section#main form#join span input#continue{
+	padding: 5px;
+	border: 1px solid #BBB;
+	border-radius: 3px;
+}
+section#main section#content{
+	background-image: url(img/deg.png);
+	background-repeat: repeat-x;
+}
+section#main section#content section#blocks{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0;
+	color: #555;
+}
+section#main section#content h2{
+	display: inline;
+	padding-top: 5px;
+	//background-color: #FFF;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	letter-spacing: -0.05em;
+}
+section#main section#content article{
+	float: left;
+	padding: 20px 15px 20px 25px;
+}
+section#main section#content article.w300{
+	width: 290px;
+}
+section#main section#content article.rborder{
+	border-right: 1px dashed #AAA;
+}
+section#main section#content article img{
+	display: block;
+	margin: 0 auto;
+}
+section#main hr.clear{
+	clear: both;
+	border: none;
+}
