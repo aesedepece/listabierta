@@ -11,5 +11,6 @@
 	6.6. El valor de la variable "$description" se usará como metadato en la cabecera del HTML.
 	6.7. El valor de la variable "$keywords" se usará como metadato en la cabecera del HTML.
 	6.8. El valor de la variable "$titles['main']" se usará como breve descripción de la página y es el que aparece en Google.
-7. Sustituir "listabierta/aux/img/logo.png" por el logotipo que se quiera, que debe tener 70px de alto y un ancho que no exceda los 300px.
-8. Sustituir "listabierta/aux/img/favicon.png" por el favicon que se quiera, que se recomienda tenga un tamaño de 32px.
+7. Sustituir "src/aux/img/logo.png" por el logotipo que se quiera, que debe tener 70px de alto y un ancho que no exceda los 300px.
+8. Sustituir "src/aux/img/favicon.png" por el favicon que se quiera, que se recomienda tenga un tamaño de 32px.
+9. Garantizar permisos sobre "src/aux/img/sec". En sistemas GNU/Linux, basta con un "chmod 777".
