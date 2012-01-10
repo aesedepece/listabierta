@@ -12,14 +12,15 @@ $regions = mysql_query("SELECT * FROM `regions` WHERE `enabled` = '1' ORDER BY `
 				<a href="candidatos/<?php echo strtolower(utf8_encode($region['name'])); ?>"><?php echo ucfirst(utf8_encode($region['name'])); ?></a>
 			</header>
 			<?php 
-			$candidatures = mysql_query("SELECT * FROM `candidatures` WHERE `region` = '".$region['id']."' ORDER BY RAND() LIMIT 3");
+			$candidatures = mysql_query("SELECT * FROM `candidatures` WHERE `region` = '".$region['id']."' AND `process` = '1' ORDER BY RAND() LIMIT 3");
 			if(mysql_num_rows($candidatures)):
 				while($candidature = mysql_fetch_assoc($candidatures)):
+				$candidate = mysql_fetch_assoc(mysql_query("SELECT * FROM `members` WHERE `id` = '".$candidature['member']."'", $db));
 				?>
 				<figure class="candidatecard">
 					<img src="<?php echo$r."mods/candidatos/img/avatars/"; ?>" />
 					<figcaption>
-						<?php echo$candidature['id']; ?>
+						<?php echo "<a href=\"candidatos/".strtolower(utf8_encode($region['name']))."/".$candidature['id']."\">".utf8_encode($candidate['name']." ".$candidate['surname'])."</a>"; ?>
 					</figcaption>
 				</figure>
 				<?php endwhile;
