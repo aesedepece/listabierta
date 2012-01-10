@@ -29,7 +29,7 @@ if(!mysql_num_rows($data)){
 		<section id="data">
 			<article id="region">
 				<header>Circunscripción</header>
-				<small><?php echo$data['zip']; ?></small><a href="<?php echo$r.'region/'.strtolower(utf8_encode($region['name'])); ?>"><?php echo utf8_encode($region['name']); ?></a><?php if(!$region['enabled'])echo" (Esta circunscripción no participa en el proceso actual)"; ?>
+				<small><?php echo$data['zip']; ?></small><a href="<?php echo$r.'candidatos/'.strtolower(utf8_encode($region['name'])); ?>"><?php echo utf8_encode($region['name']); ?></a><?php if(!$region['enabled'])echo" (Esta circunscripción no participa en el proceso actual)"; ?>
 			</article>
 			<article id="candidature">
 				<header>Candidaturas</header>
@@ -56,7 +56,7 @@ if(!mysql_num_rows($data)){
 								echo" a <a href=\"".$r."perfil/".$to['id']."\">".utf8_encode($to['name']." ".$to['surname'])."</a>";
 							}else if($question['region']){
 								$region = mysql_fetch_assoc(mysql_query("SELECT * FROM `regions` WHERE `id` = '".$question['region']."'", $db));
-								echo" a todo <a href=\"".$r."region/".strtolower(utf8_encode($region['name']))."\">".utf8_encode($region['name'])."</a>";
+								echo" a todo <a href=\"".$r."candidatos/".strtolower(utf8_encode($region['name']))."\">".utf8_encode($region['name'])."</a>";
 							}
 							echo"<br />";
 						}
