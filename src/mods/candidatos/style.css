@@ -16,8 +16,10 @@ section#candidatos section#main section#regions{
 	padding: 20px 10px 20px 20px;
 }
 section#candidatos section#main section#regions article{
-	margin: 10px 0 20px 0;
+	margin: 10px 0 10px 0;
+	padding-top: 10px;
 	color: #999;
+		clear: both;
 }
 section#candidatos section#main section#regions article > header{
 	margin-bottom: 5px;
@@ -27,6 +29,36 @@ section#candidatos section#main section#regions article > header{
 section#candidatos section#main section#regions article > header a{
 	color: #71C837;
 	text-decoration: none;
+}
+section#candidatos section#main section#regions article figure{
+	float: left;
+	width: 350px;
+	height: 90px;
+}
+section#candidatos section#main section#regions article figure.candidatecard{
+	background-color: #333;
+}
+section#candidatos section#main section#regions article figure.morecandidates{
+	background-color: #DDD;
+}
+section#candidatos section#main section#regions article figure img{
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin-right: 15px;
+	background-color: #666;
+}
+section#candidatos section#main section#regions article figure figcaption{
+	padding: 15px;
+	color: #FFF;
+}
+section#candidatos section#main section#regions article figure figcaption a{
+	color: #FFF;
+	text-decoration: none;
+}
+section#candidatos section#main section#regions article figure figcaption a:hover{
+	color: #FFF;
+	text-decoration: underline;
 }
 section#candidatos section#main aside#joinus{
 	float: right;

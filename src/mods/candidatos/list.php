@@ -18,13 +18,14 @@ $regions = mysql_query("SELECT * FROM `regions` WHERE `enabled` = '1' ORDER BY `
 				$candidate = mysql_fetch_assoc(mysql_query("SELECT * FROM `members` WHERE `id` = '".$candidature['member']."'", $db));
 				?>
 				<figure class="candidatecard">
-					<img src="<?php echo$r."mods/candidatos/img/avatars/"; ?>" />
+					<img src="" />
 					<figcaption>
 						<?php echo "<a href=\"candidatos/".strtolower(utf8_encode($region['name']))."/".$candidature['id']."\">".utf8_encode($candidate['name']." ".$candidate['surname'])."</a>"; ?>
 					</figcaption>
 				</figure>
-				<?php endwhile;
-			else:
+				<?php endwhile; ?>
+				<figure class="morecandidates"></figure>
+			<?php else:
 				echo"No hay candidaturas en esta circunscripción.";
 			endif;
 			?>
